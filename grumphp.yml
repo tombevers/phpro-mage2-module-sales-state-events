@@ -2,7 +2,6 @@ parameters:
     tasks:
         phpcs:
             standard: "ruleset.xml"
-            show_warnings: false
             ignore_patterns:
                 - "vendor"
                 - "Test/Unit"

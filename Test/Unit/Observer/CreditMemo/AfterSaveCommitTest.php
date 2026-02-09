@@ -39,7 +39,7 @@ class AfterSaveCommitTest extends TestCase
     /**
      * Is called before running a test
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->stateDispatcher = $this->getMockBuilder(StateDispatcher::class)
             ->disableOriginalConstructor()

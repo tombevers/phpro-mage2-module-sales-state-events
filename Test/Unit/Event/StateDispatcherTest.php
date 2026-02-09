@@ -43,7 +43,7 @@ class StateDispatcherTest extends TestCase
     /**
      * Is called before running a test
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->dispatcherMock = $this->getMockBuilder(ManagerInterface::class)
             ->disableOriginalConstructor()
